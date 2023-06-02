@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo"><a href="#Home">My Portfolio</a></h1>
+        <ul class="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <div id="Home">
+        <div class="container">
+            <h1 id="name">Hey,My Name is Ashraf shaikh </h1>
+            <p id="desc"> <span id="element">my Persnal Portfolio</span></p>
+            <div class="downloads">
+                <p id="resume"><button class="Cv"> <a href="/images/myResume.pdf" download>Download CV</a></button></p><p id="resume"><button class="Git"><a href="https://github.com/trigon27" target="_blank">Git hub</a> </button></p>
+            </div>
+        </div>
+    </div>
+
+    <section id="about">
+        <div id="Aboutcontainer">
+            <div class="leftContainer"></div>
+            <div class="rightContainer">
+                <h4> About me :</h4>
+                <P>I am an enthusiastic youth who is always keen to learn new things in life and always ready to face
+                    any kind of challenges.</P>
+                <h4>MY SKILLS :</h4>
+                <div class="skillContainer">
+                    <div class="skillItem">
+                        <div class="skillname">HTML:</div>
+                        <div class="skillhtml"></div>95%
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillname">CSS :</div>
+                        <div class="skillcss"></div>80%
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillname">Javascript :</div>
+                        <div class="skilljavascript"></div>70%
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillname">react.js :</div>
+                        <div class="skillreactjs"></div>50%
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillname">Java : </div>
+                        <div class="skilljava"></div>80%
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillname">Python : </div>
+                        <div class="skillpython"></div>75%
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillname">C : </div>
+                        <div class="skillc"></div>95%
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillname">C++ :</div>
+                        <div class="skillcpp"></div>95%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Education">
+        <div id="Educationcontainer">
+            <h2 class="headingEdu">Education background</h2>
+            <div class="educationbox">
+                <div class="educationItem"><img src="/images/icon.png" alt="">
+                    <hr>
+                    <div class="info">
+                        <h4>siws college</h5>
+                            <a href="https://siwscollege.edu.in/" target="_blank">View Website</a>
+                            <p>2021-2024</p>
+                            <p>Degree:Bsc</p>
+                            <p>Major:Information technology</p>
+                            <p>GPA:---</p>
+                    </div>
+                </div>
+                <div class="educationItem"><img src="/images/bunts-logo.png" alt="">
+                    <hr>
+                    <div class="info">
+                        <h4>Bunts Sangha college</h5>
+                            <a href="https://bunts.edu.in/" target="_blank">View Website</a>
+                            <p>AUG-21</p>
+                            <p>Major : Commerce</p>
+                            <p>Percentage : 75.67%</p>
+                    </div>
+                </div>
+                <div class="educationItem"><img src="/images/Cosmopolitan_high_school.webp.png" alt="">
+                    <hr>
+                    <div class="info">
+                        <h4>Sind Cosmopolitan high school</h5>
+                            <a href="https://www.edustoke.com/mumbai/sind-cosmopolitan-high-school-jr-college-chembur-east" target="_blank">View Website</a>
+                            <p>Mar-19</p>
+                            <p>Percentage : 45.20%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+       <h1>Projects</h1>
+       <div class="projectcontainer">
+            <div class="projectItme">
+                <h2>flipkart clone</h2>
+                <div class="uppercontainer">
+                    <div class="projectright">
+                    </div>
+            </div>
+                <h2>spotify clone</h2>
+                <div class="lowercontainer">
+                    <div class="projectleft"></div>
+                </div>
+            </div>
+       </div>
+    </section>
+
+    <section id="contact">
+        <div class="Contantcontainer">
+            <div class="contactright">
+                <h2>send your message</h2>
+                <form action="post" name="contact" id="form" data-netlify="true" onSubmit="Submit">
+                    <label for="name">Name</label>
+                    <input type="text" id="username" required placeholder="name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="xyz@gmail.com"required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="your message"></textarea>
+                    <div data-netlify-recaptcha="true"></div>
+                    <button type="submit" id="sumit">send your messsage</button>
+                </form>
+            </div>
+            <div class="contantleft">
+                        <h2>Contant Me</h2>
+                        <div class="contactInfo">
+                            <div class="Icon" ><img src="/images/call.png" alt=""><div class="iconvalue"> 7718985075</div></div>
+                            <div class="Icon" ><img src="/images/location.png" alt=""><div class="iconvalue"> Maharastra,mumbai</div></div>
+                            <div class="Icon" ><img src="/images/linkedin.png" alt=""><div class="iconvalue"> <a href="https://www.linkedin.com/in/ashraf-shaikh-" target="_blank">Vist Linkedin</a></div></div>
+                            <div class="Icon" ><img src="/images/instagram.png" alt=""><div class="iconvalue"> <a href="https://www.instagram.com/ashraf__shaikh__27/" target="_blank">Instagram</a></div></div>
+                            <div class="Icon" ><img src="/images/email.png" alt=""><div class="iconvalue">ashrafshaikh0778866@gmail.com</div></div>
+                        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footercontainer">
+            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Welcome to my portfolio','I am a Web Developer', 'And Student of BscIT'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
